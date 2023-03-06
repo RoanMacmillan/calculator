@@ -1,0 +1,83 @@
+.label-box {
+  width: 71px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+}
+.radio-box {
+  padding: 3px 0;
+  background: #242d44;
+  border-radius: 13px;
+  display: flex;
+  justify-content: space-around;
+  height: 26px;
+  position: relative;
+  margin-top: 5px;
+}
+
+#radio-theme1 {
+  cursor: pointer;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  border-radius: 50%;
+  margin: 0;
+}
+#radio-theme2 {
+  cursor: pointer;
+  appearance: none;
+  position: absolute;
+  top: 5px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin: 0;
+}
+#radio-theme3 {
+  cursor: pointer;
+  appearance: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+#radio-theme1:hover {
+  background: #d03f2f46;
+  transition-duration: 500ms;
+}
+#radio-theme2:hover {
+  background: #ca55024b;
+  transition-duration: 500ms;
+}
+#radio-theme3:hover {
+  background: #00e0d146;
+  transition-duration: 500ms;
+}
+
+#radio-theme1:checked {
+  background: #d03f2f;
+  transition-duration: 500ms;
+  cursor: default;
+}
+#radio-theme2:checked {
+  background: #d03f2f;
+  transition-duration: 500ms;
+  cursor: default;
+}
+#radio-theme3:checked {
+  background: #d03f2f;
+  transition-duration: 500ms;
+  cursor: default;
+}

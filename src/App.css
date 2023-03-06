@@ -51,3 +51,39 @@ h1 {
   letter-spacing: -0.533333px;
   color: #ffffff;
 }
+
+header {
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+
+header span {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.themeContainer {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.themeTxt {
+  margin-top: auto;
+  margin-bottom: 7px;
+}
+
+
+@media screen and (min-width: 1440px) {
+  header {
+    width: 533px;
+  }
+}

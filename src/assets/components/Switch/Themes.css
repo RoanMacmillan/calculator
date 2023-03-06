@@ -1,0 +1,13 @@
+/* theme 2 */
+
+.light {
+  background: hsl(0, 0%, 90%);
+}
+
+.light .outputContainer {
+  background: #eeeeee;
+}
+
+.light .display {
+  color: #36362c;
+}

@@ -3,7 +3,7 @@ import "./Calculator.css";
 import Button from "../Button/Button";
 import Display from "../Display/Display";
 const Calculator = () => {
-  const [displayValue, setDisplayValue] = useState("0");
+  const [displayValue, setDisplayValue] = useState("399,981");
 
   function handleButtonClick(value) {
     switch (value) {
@@ -19,7 +19,7 @@ const Calculator = () => {
         try {
           // Evaluate the expression and update the displayValue with the result
           const result = eval(displayValue);
-          setDisplayValue(result.toString());
+          setDisplayValue(result.toLocaleString());
         } catch (error) {
           // If the expression is invalid, display an error message
           setDisplayValue("Error");
@@ -51,9 +51,7 @@ const Calculator = () => {
 
   return (
     <main>
-      <div className="outputContainer">
-        <Display value={displayValue} />
-      </div>
+      <Display value={displayValue} />
 
       <div className="buttonsContainer">
         <Button label="7" onClick={() => handleButtonClick("7")} />

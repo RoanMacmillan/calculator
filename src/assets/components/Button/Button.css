@@ -15,6 +15,10 @@ button {
   /* transition: all .2s ease-in-out; */
 }
 
+button:hover {
+  filter: brightness(110%);
+}
+
 button:active {
   box-shadow: none;
   top: 1px;
@@ -28,7 +32,7 @@ button:active {
   height: 64px;
   border-radius: 5px;
   text-align: center;
-  transition: all 0.2s ease-in-out;
+  /* transition: all 0.2s ease-in-out; */
 }
 
 .big:last-of-type {
@@ -58,5 +62,27 @@ button:active {
   button {
     width: 101px;
     height: 64px;
+    font-size: 40px;
+    line-height: 37px;
+    letter-spacing: -0.666667px;
+    border-radius: 10px;
+  }
+
+  .big:first-of-type,
+  .delBtn {
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: -0.466667px;
+    color: #ffffff;
+    border-radius: 10px;
+
+  }
+
+  .big:last-of-type {
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: -0.466667px;
+    border-radius: 10px;
+
   }
 }
