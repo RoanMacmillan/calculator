@@ -1,0 +1,11 @@
+.display {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 37px;
+  letter-spacing: -0.666667px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
