@@ -18,9 +18,9 @@ function App() {
           <span className="themeTxt">theme</span>
           <div className="theme-input">
             <div className="label-box">
-              <label>1</label>
-              <label>2</label>
-              <label>3</label>
+              <label htmlFor="radio-theme1">1</label>
+              <label htmlFor="radio-theme2">2</label>
+              <label htmlFor="radio-theme3">3</label>
             </div>
             <div className="radio-box">
               <input
