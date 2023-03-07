@@ -8,6 +8,90 @@
   background: #eeeeee;
 }
 
-.light .display {
-  color: #36362c;
+.light .display,
+.light .themeContainer span,
+.light .themeContainer label,
+.light h1 {
+  color: #36362c !important;
+}
+
+.light .buttonsContainer {
+  background: #d2cdcd;
+}
+
+.light button {
+  background: #e5e4e1;
+  box-shadow: inset 0px -4px 0px #a79e91;
+}
+
+.light .delBtn,
+.light .big:first-of-type {
+  background: #378187;
+  box-shadow: inset 0px -4px 0px #1b6066;
+}
+
+.light .big:last-of-type {
+  background: #c85402;
+  box-shadow: inset 0px -4px 0px #873901;
+}
+
+.light .radio-box {
+  background: #d2cdcd;
+}
+
+.light button:active {
+
+  box-shadow: none !important;
+}
+
+/* theme 3 */
+
+.dark .radio-box {
+  background: #1e0936;
+}
+
+.dark {
+  background: #17062a;
+}
+
+.dark button {
+  background: #331c4d;
+  box-shadow: inset 0px -4px 0px #881c9e;
+}
+
+.dark .outputContainer {
+  background: #1e0936;
+}
+
+.dark .big:last-of-type {
+  background: #00ded0;
+  box-shadow: inset 0px -4px 0px #6cf9f1;
+  color: #1A2327;
+}
+
+.dark .big:first-of-type {
+  background: #56077c;
+  box-shadow: inset 0px -4px 0px #be15f4;
+}
+
+.dark .delBtn {
+  background: #56077c;
+  box-shadow: inset 0px -4px 0px #be15f4;
+}
+
+.dark button:active {
+
+  box-shadow: none !important;
+}
+
+.dark h1,
+.dark .display,
+.dark .themeContainer span,
+.dark .themeContainer label,
+.dark button {
+  color: #ffe53d;
+}
+
+.dark .buttonsContainer {
+  background: #1e0936;
 }

@@ -18,7 +18,11 @@
   height: 26px;
   position: relative;
   margin-top: 5px;
+  
 }
+
+
+
 
 #radio-theme1 {
   cursor: pointer;
@@ -72,12 +76,12 @@
   cursor: default;
 }
 #radio-theme2:checked {
-  background: #d03f2f;
+  background: #c85402;
   transition-duration: 500ms;
   cursor: default;
 }
 #radio-theme3:checked {
-  background: #d03f2f;
+  background: #00DED0;
   transition-duration: 500ms;
   cursor: default;
 }

@@ -35,16 +35,16 @@ function App() {
                 type="radio"
                 name="colorScheme"
                 id="radio-theme2"
-                value="dark"
-                checked={colorScheme === "dark"}
+                value="light"
+                checked={colorScheme === "light"}
                 onChange={handleColorSchemeChange}
               />
               <input
                 type="radio"
                 name="colorScheme"
                 id="radio-theme3"
-                value="light"
-                checked={colorScheme === "light"}
+                value="dark"
+                checked={colorScheme === "dark"}
                 onChange={handleColorSchemeChange}
               />
             </div>
