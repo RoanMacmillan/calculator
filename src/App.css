@@ -24,7 +24,7 @@ html {
 /* min body height */
 
 body {
-  background: #434a59;
+  background: hsl(222, 26%, 31%);
 }
 
 .App {
@@ -85,5 +85,6 @@ header span {
 @media screen and (min-width: 1440px) {
   header {
     width: 533px;
+    margin-left: 7px;
   }
 }
