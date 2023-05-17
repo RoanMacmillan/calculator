@@ -4,8 +4,18 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fade-in.loaded {
+  opacity: 1;
+}
 
 
 .buttonsContainer {

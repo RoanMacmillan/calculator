@@ -1,9 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Calculator.css";
 import Button from "../Button/Button";
 import Display from "../Display/Display";
 const Calculator = () => {
   const [displayValue, setDisplayValue] = useState("399,981");
+
+
+
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    // Add loaded class after a short delay
+    const timer = setTimeout(() => {
+      setIsLoaded(true);
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, []);
+
 
   function handleButtonClick(value) {
     switch (value) {
@@ -50,7 +64,7 @@ const Calculator = () => {
   }
 
   return (
-    <main>
+    <main className={isLoaded ? "fade-in loaded" : "fade-in"}>
       <Display value={displayValue} />
 
       <div className="buttonsContainer">
